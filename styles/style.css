@@ -1,6 +1,288 @@
 /* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto; 
+  padding: 20px 0; 
+}
+
+.header__menu__list {
+  list-style: none;
+  display: flex;
+  gap: 31.48px; 
+  text-decoration: underline;
+}
+
+.header__menu__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  text-transform: lowercase;
+  transition: 0.2s;
+}
+
+.header__menu__link:hover {
+  opacity: 0.7;
+}
+
+.header__logo img {
+  width: 140px;
+  height: auto;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  line-height: 1.4;
+}
+
+.header__phone,
+.header__email {
+  text-decoration: underline;
+  color: #000;
+}
+
+.header__phone:hover,
+.header__email:hover {
+  opacity: 0.7;
+}
 
 
+.cover {
+  position: relative;
+  background-image: url("../images/cover.jpg"); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px 20px;
+}
 
+.cover__title {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
 
+.cover__text {
+  display: block;
+}
 
+.cover__text__left {
+  text-align: left;
+}
+
+.cover__text__center {
+  text-align: center;
+}
+
+.cover__text__right {
+  text-align: right;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.description__text {
+  margin: 0;
+}
+
+.cover__button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cover__button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.lots {
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.lots__title {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.lots__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lots__item {
+  flex: 1 1 32%;
+}
+
+.lots__card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s;
+}
+
+.lots__card:hover {
+  transform: translateY(-5px);
+}
+
+.lots__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lots__card__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 16px;
+}
+
+.lots__card__discription {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 16px 16px;
+}
+
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.about__colomn__left {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: url("../images/Ellipse\ 10.png");
+  background-image: url("../images/logo-white.svg"); 
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about__colomn__right {
+  max-width: 700px;
+}
+
+.about__title {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about__text p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 100px auto 60px;
+  padding: 0 20px;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.footer__phone,
+.footer__email {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__phone:hover,
+.footer__email:hover {
+  opacity: 0.7;
+}
+
+.footer__menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__menu__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  text-transform: lowercase;
+  transition: 0.2s;
+}
+
+.footer__menu__link:hover {
+  opacity: 0.7;
+}
+
+.footer__social__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social__item img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+.footer__social__item img:hover {
+  opacity: 0.7;
+}
