@@ -13,11 +13,14 @@
     font-size: 18px;
 }
 
-/* .header__menu__list {
+.header__menu__list {
     display: flex;
-    /* justify-content:space-between; */
-    /* gap: 32px; 
-} */
+    gap: 32px; 
+} 
+
+.menu li::marker {
+  content: "○ ";
+}
 
 .header__logo {
     justify-self: center;
