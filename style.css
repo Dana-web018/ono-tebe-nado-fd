@@ -222,14 +222,16 @@
     padding-top: 284px;
 }
 
-.lots__look-more-link {
-    text-decoration: underline;
+.lots__look-more-link { 
+    display: block;
+    text-decoration: underline; 
     font-size: 20px;
     color: #000000;
     margin-left: 40px;
+    padding-top: 30px;
     display: inline-block;
     margin-bottom: 10px;
-}
+} 
 
 .about {
     display: flex;
