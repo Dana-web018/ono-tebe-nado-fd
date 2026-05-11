@@ -16,11 +16,25 @@
 .header__menu__list {
     display: flex;
     gap: 32px; 
+    list-style: circle;
 } 
 
-.menu li::marker {
-  content: "○ ";
+.header__menu-item {
+    list-style: none;
 }
+
+.header__menu-item a {
+    text-decoration: none;
+}
+
+.under a {
+    text-decoration: underline;
+}
+
+/* .menu li {
+  opacity: 0.5; 
+  background-color: #fff; 
+} */
 
 .header__logo {
     justify-self: center;
@@ -317,9 +331,6 @@
     line-height: 1.2;
 }
 
-.under {
-    text-decoration: underline;
-}
 
 .header__address__d {
     font-style: normal;
