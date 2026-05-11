@@ -19,15 +19,16 @@
     list-style: circle;
 } 
 
-.header__menu-item {
+/* .header__menu-item {
+    list-style: none;
+} */
+
+.a {
+    text-decoration: none;
     list-style: none;
 }
 
-.header__menu-item a {
-    text-decoration: none;
-}
-
-.under a {
+.under {
     text-decoration: underline;
 }
 
