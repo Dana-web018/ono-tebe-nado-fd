@@ -246,8 +246,9 @@
     font-size: 20px;
     color: #000000;
     margin-left: 40px;
-    padding-top: 30px;
-    display: inline-block;
+    margin-top: -10px;
+    /* padding-top: 30px;
+    display: inline-block; */
     margin-bottom: 10px;
 } 
 
